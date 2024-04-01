@@ -65,8 +65,8 @@ while paisa>=paisb:
 print("en el "+ str(numero)+" año la poblacion del pais b superara a la del pais a")
 ```
 - Creamos variables que represente los porcentajes de aumento y el valor actual de poblacion segun el planteamiento dado junto con una variable adicional que usaremos para contar el numero de iteraciones
-- Aplicamos un ciclo while en el cual siempre y cuando el pais a tenga mas poblacion que el pais b el valor de ambos paises aumentara de acuerdo a los porcentajes por cada iteracion ademas de contar el paso de iteraciones con nuestra otra variable sumandole de a 1 (este valor representaria el numero de años)
-- En el momento en que el pais b supere al a ya no entrara en el ciclo, dejandonos la variable que representa el numero de años en el año exacto en que la poblacion B supera la poblacion A
+- Aplicamos un ciclo while en el cual siempre y cuando el pais A tenga mas poblacion que el pais B el valor de ambos paises aumentara de acuerdo a los porcentajes por cada iteracion ademas de contar el paso de iteraciones con nuestra otra variable sumandole de a 1 (este valor representaria el numero de años)
+- En el momento en que el pais B supere al A ya no entrara en el ciclo, dejandonos la variable que representa el numero de años en el año exacto en que la poblacion B supera la poblacion A
 ## Ejercicio 5
 Imprimir el factorial de un número natural n dado.
 ```python
@@ -77,8 +77,8 @@ while n>1:
     n=n-1
 print(factor)
 ```
-- Declaramos una variable para que el usuario del codigo pueda escribir el numero del que se quiere obtener el factorial y junto con esta otra variable que sera el valor final del factorial la cual iniciarizaremos con el mismo valor de entrada
-- Aplicamos un ciclo while en el cual mientras  nuestro numero de entrada sea mayor que 1 (porque el factorial de 1 es 1) se actualizara el valor final del factorial a su valor actual por el numero anterior al numero entrado para obtener su factorial
+- Declaramos una variable para que el usuario del codigo pueda escribir el numero del que se quiere obtener el factorial y junto con esta otra variable que sera el valor final del factorial la cual iniciariara siendo igual a la variable ingresada por teclado
+- Aplicamos un ciclo while en el cual mientras  nuestro numero de entrada sea mayor que 1 (porque el factorial de 1 es 1 y porque nos ubicamos unicamente en enteros positivos) se actualizara el valor final del factorial a su valor actual por el numero anterior al numero entrado para obtener su factorial
 - De esta manera nuestro valor final ira multiplicando sus valores inferiores hasta llegar al 1 natural
 ## Ejercicio 6
 Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
