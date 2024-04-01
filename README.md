@@ -79,7 +79,7 @@ print(factor)
 ```
 - Declaramos una variable para que el usuario del codigo pueda escribir el numero del que se quiere obtener el factorial y junto con esta otra variable que sera el valor final del factorial la cual iniciariara siendo igual a la variable ingresada por teclado
 - Aplicamos un ciclo while en el cual mientras  nuestro numero de entrada sea mayor que 1 (porque el factorial de 1 es 1 y porque nos ubicamos unicamente en enteros positivos) se actualizara el valor final del factorial a su valor actual por el numero anterior al numero entrado para obtener su factorial
-- De esta manera nuestro valor final ira multiplicando sus valores inferiores hasta llegar al 1 natural
+- De esta manera nuestro valor final ira multiplicando sus valores inferiores hasta llegar al 1 natural y realizar asi el proceso para obtener el factorial dado
 ## Ejercicio 6
 Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 ```python
