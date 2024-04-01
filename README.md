@@ -114,7 +114,7 @@ else:
     print("no esta dentro del rango")
 ```
 - Importamos la funcion random para que realmente la computadora se encarge de obtener el valor real a punta de adivinar
-- Creamos variables que representen el rango en los cuales se obtendra el numero aleatorio y el numero de intentos
+- Creamos una variable que representen el rango en los cuales se obtendra el numero aleatorio y otra que represente el numero de intentos
 - Definimos una funcion la cual use el valor random para facilitar el proceso de codigo
 - Creamos otra variable la cual represente un uso de esta funcion (para guardar el primer valor aleatorio que genere la funcion) y otra variable mas la cual le permita al usuario introducir el numero que desea que la computadora adivine
 - Aplicamos una condicional la cual evalue si a esta dentro de nuestro ragno (en este caso lo tomaremos como un rango abierto), en caso de que si se continuara el proceso pero en caso de que no suceda se termianra el codigo
