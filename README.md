@@ -166,8 +166,8 @@ if __name__=="__main__":
           a+=1     
 
 ```
-- Creamos una funcion en la cual se crearan variables con el fin de evaluara el residuo de una division entre 2 numeros, en caso de que este residuo (r en la funcion) sea nulo se le sumara 1 a un valor inicializado como 1, seguido a esto en el ciclo se agragara 1 al valor del divisor. Esto se hace con el fin de que  se repita hasta que las variables no cumplan las condicioens para seguir en el ciclo while y pasen al siguiente bloque.
-- Justo despues del ciclo while tenemos un condicional el cual evalua el valor de d, el cual si es equivalente a 3 es un no primo mientras que si no lo es si es un primo
+- Creamos una funcion en la cual se crearan variables con el fin de evaluar al residuo de una division entre 2 numeros (uno ingresado en la funcion y otro ya programado para ir aplicandose y cambiando), en caso de que este residuo (llamado r en la funcion) sea nulo se le sumara 1 a un valor llamado d el cual es una de las condiciones para el ciclo while. Seguido a esto en el ciclo se agragara 1 al valor del divisor lo cual se hace con el fin de que se repita hasta que las variables no cumplan las condicioens para seguir en el ciclo while y pasen al siguiente bloque.
+- Justo despues del ciclo while tenemos un condicional el cual evalua el valor de d, el cual si es equivalente a 3 es un no primo mientras que si no lo es si es un primo (esto lo representa a partir de un valor booleano que sera arojado al usar la funcion con un valor)
 - Hecha la funcion dentro del codigo creamos una variable inicializada en 0 y aplicaremos un ciclo while en el cual la variable podra ingresar siempre que sea menor o igual a 100
 - Dentro de este ciclo se evaluara si nuestra funcion aplicada en la variable es verdadera, lo cual puede generar 2 casos:
 1. Es verdadera y por tanto el numero es primo, por lo tanto la imprime y suma 1 al valor de la variable que evalua la funcion
