@@ -116,12 +116,12 @@ else:
 - Importamos la funcion random para que realmente la computadora se encarge de obtener el valor real a punta de adivinar
 - Creamos una variable que representen el rango en los cuales se obtendra el numero aleatorio y otra que represente el numero de intentos
 - Definimos una funcion la cual use el valor random para facilitar el proceso de codigo
-- Creamos otra variable la cual represente un uso de esta funcion (para guardar el primer valor aleatorio que genere la funcion) y otra variable mas la cual le permita al usuario introducir el numero que desea que la computadora adivine
-- Aplicamos una condicional la cual evalue si a esta dentro de nuestro ragno (en este caso lo tomaremos como un rango abierto), en caso de que si se continuara el proceso pero en caso de que no suceda se termianra el codigo
+- Creamos otra variable la cual represente un uso de la funcion random (para guardar el primer valor aleatorio que genere la funcion) y otra variable mas la cual le permita al usuario introducir el numero que desea que la computadora adivine
+- Aplicamos una condicional la cual evalue si a esta dentro de nuestro rango de 0 a 100 (en este caso lo tomaremos como un rango abierto), en caso de que si se continuara el proceso pero en caso de que no suceda se terminara el codigo
 - En caso de que este dentro del rango se aplicara un ciclo while que se aplicara siempre que el numero dado por el usuario sea diferente al valor que genero el codigo con la funcion random, en esta se declarara otra variable la cual preguntara si el numero es mayor o menor al numero generado (se usara 1 para confirmar que es mayor y 0 para confirmar que es menor). Esto generara 2 casos:
-1. Si es mayor se cambiara el valor inferior del rango con el que se generara el numero aleatorio por el valor actual que se genero, pues si sabemos que es mayor podemos asegurar que no esta en ninguno de los valores menores a este numero
-2. Si es menor se cambiara el valor superior del rango con el que se generara el numero aleatorio por el valor actual que se genero, pues si sabemos que es menor podemos asegurar que no esta en ninguno de los valores menores a este numero
-- Este proceso se seguira haciendo hasta que el rango de la funcion solo tenga la opcion de elegir el numero que el usuario proporciono, de esta forma saliendo del bucle while y entrando en un ultimo condicion que evalua si el numero generado es igual al numero dado. Si esto es asi imprimira el numero junto con el numero de intentos que tardo la maquina en descubrirlo
+1. Si es mayor se cambiara el valor inferior del rango con el que se generara el numero aleatorio por el valor actual que se genero, pues si sabemos que es mayor podemos asegurar que no esta en ninguno de los valores menores a este numero (esto sumara 1 al valor que representa los intentos)
+2. Si es menor se cambiara el valor superior del rango con el que se generara el numero aleatorio por el valor actual que se genero, pues si sabemos que es menor podemos asegurar que no esta en ninguno de los valores mayores a este numero (esto tambien sumara 1 al valor que representa los intentos)
+- Este proceso se seguira haciendo hasta que el rango de la funcion solo tenga la opcion de elegir el numero que el usuario proporciono, de esta forma saliendo del bucle while y entrando en un ultimo condicional que evalua si el numero generado es igual al numero dado. Si esto es asi imprimira el numero junto con el numero de intentos que tardo la maquina en descubrirlo
 ## Ejercicio 7
 Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 ```python
@@ -135,7 +135,7 @@ while n>=2 and n<=50:
         d+=1
         continue
 ```
--Ingresamos 2 variables, una que se pueda introducir para que el usuario introdusca el numero del que se quiere saber sus divisores mientras que la otra representara el numero por el que se dividira (se inicializa en 1 para evitar complicaciones)
+-Ingresamos 2 variables, una para que el usuario introduzca el numero del que se quiere saber sus divisores mientras que la otra representara el numero por el que se dividira (se inicializa en 1 para evitar complicaciones)
 - Se crea un ciclo while en el cual siempre y cuando el numero este entre 2 y 50 pueda entrar.
 - Dentro de este ciclo hay una condicional la cual evalua la igualdad entre la division de ambos numeros y su division exacta (lo cual nos dice si es un divisor de ese numero o no), esto puede generar 2 casos:
 1. Si lo es se imprimira el valor y se le sumara 1 al divisor para volver a evaluar
