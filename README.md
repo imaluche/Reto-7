@@ -27,7 +27,7 @@ while nam<=999:
     print(nam)
 ```
 - Creamos 2 variables las cuales representen el numero actual impar (num) y par (nam)
-- Primero aplicamos un bluce en num que vaya sumandole 2 por cada iteracion y despues imprimir el valro de num actual hasta llegar a 998 como maximo valor de entrada, al num estar inicializado en -1 todos los valores seran impares
+- Primero aplicamos un bluce en num que vaya sumandole 2 por cada iteracion y despues imprimir el valor de num actual hasta llegar a 998 como maximo valor de entrada, al num estar inicializado en -1 todos los valores seran impares
 - Aplicamos otro bucle while en nam justo despues que llegue hasta 999 como maximo valor de entrada en donde tambien sumaremos 2 al valor de nam e imprimiremos el valor actual de nam, en este caso al estar inicializado en 0 siempre obtendremos pares 
 ## Ejercicio 3
 Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
