@@ -28,7 +28,7 @@ while nam<=999:
 ```
 - Creamos 2 variables las cuales representen el numero actual impar (num) y par (nam)
 - Primero aplicamos un bluce en num que vaya sumandole 2 por cada iteracion y despues imprimir el valor de num actual hasta llegar a 998 como maximo valor de entrada, al num estar inicializado en -1 todos los valores seran impares
-- Aplicamos otro bucle while en nam justo despues del bucle de num, este bucle aceptara valores de nam hasta 999 y de igual manera sumara 2 al valor de nam e imprimira su valor actual por iteracion, en este caso al estar inicializado en 0 siempre obtendremos pares 
+- Aplicamos otro bucle while en nam justo despues del bucle de num, este bucle aceptara valores de nam hasta 999 y de igual manera sumara 2 al valor de nam e imprimira su valor actual por iteracion. En este caso al estar inicializado en 0 siempre obtendremos pares 
 ## Ejercicio 3
 Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ```python
